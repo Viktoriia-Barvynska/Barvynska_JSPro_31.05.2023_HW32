@@ -1,0 +1,36 @@
+.header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 100px;
+}
+.menu-header{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all .3s ease;
+}
+.menu-header li:hover{
+    text-decoration: underline;
+    /* font-size: 18px; */
+    color: rgb(7, 70, 158);
+}
+.button-header{
+    border: 2px solid rgb(7, 70, 158);
+    width: 100px;
+    height: 40px;
+    background-color: rgb(84, 149, 241);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease;
+    color: #fff;
+    font-size: 16px;
+}
+.button-header:hover{
+    background-color: transparent;
+    color: rgb(7, 70, 158);
+}
